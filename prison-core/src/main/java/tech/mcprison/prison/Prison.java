@@ -347,15 +347,9 @@ public class Prison
     private void sendBanner() {
     	
     	ChatDisplay display = new ChatDisplay("");
-    	
+
     	display.addText("");
-    	display.addText("&6 _____      _                 ");
-    	display.addText("&6|  __ \\    (_)                ");
-    	display.addText("&6| |__) | __ _ ___  ___  _ __  ");
-    	display.addText("&6|  ___/ '__| / __|/ _ \\| '_ \\");
-    	display.addText("&6| |   | |  | \\__ \\ (_) | | | |");
-    	display.addText("&6|_|   |_|  |_|___/\\___/|_| |_|");
-    	display.addText("");
+    	display.addText("&6&lPrisons Core Loaded");
     	display.addText("&7Loading Prison version: &3%s", PrisonAPI.getPluginVersion());
     	display.addText("&7Running on platform: &3%s", platform.getClass().getSimpleName());
     	display.addText("&7Minecraft version: &3%s", getMinecraftVersion());
